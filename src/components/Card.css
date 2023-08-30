@@ -1,0 +1,90 @@
+/* Card.css */
+
+.card {
+    width: 350px; /* Increase the width */
+    height: 400px; /* Increase the height */
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #f9f9f9;
+  }
+  
+  .image {
+    width: 100%;
+    height: 60%; /* Adjust the image height */
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .tour-info {
+    height: 40%; /* Adjust the height for description area */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .tour-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tour-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  .tour-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    height: 100%; /* Expand the description area */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .read-more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    padding: 5px;
+    color: #4caf50;
+    cursor: pointer;
+  }
+  
+  .btn-click {
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-click:hover {
+    background-color: #d32f2f;
+  }
+  
