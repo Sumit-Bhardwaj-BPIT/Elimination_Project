@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Elimination_Project/static/css/main.f0f30fbf.css",
+    "main.js": "/Elimination_Project/static/js/main.9cdc6b63.js",
+    "index.html": "/Elimination_Project/index.html",
+    "main.f0f30fbf.css.map": "/Elimination_Project/static/css/main.f0f30fbf.css.map",
+    "main.9cdc6b63.js.map": "/Elimination_Project/static/js/main.9cdc6b63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0f30fbf.css",
+    "static/js/main.9cdc6b63.js"
+  ]
+}
